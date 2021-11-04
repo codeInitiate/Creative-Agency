@@ -1,3 +1,4 @@
+/* Global Styles  */
 @font-face {
   font-family: headerFont;
   src: url(./fonts/aliens_and_cows/aliens\ and\ cows_trial.ttf);
@@ -5,11 +6,7 @@
 
 @font-face {
   font-family: textFont;
-  src: url(./fonts/neoteric/NEOTERIC╕\ -\ Regular\ DEMO\ VERSION.ttf);
-}
-@font-face {
-  font-family: boldFont;
-  src: url(./fonts/neoteric/NEOTERIC╕\ -\ Bold\ DEMO\ VERSION.ttf);
+  src: url(./fonts/Quicksand-Font/Quicksand_Book.otf);
 }
 html * {
   padding: 0;
@@ -22,6 +19,10 @@ body {
   background: #000;
   color: #fff;
 }
+
+/*  End Of Global Styles  */
+
+/* Header Section Style  */
 
 #main_Header {
   display: flex;
@@ -54,6 +55,10 @@ body {
   font-size: 0.9em;
 }
 
+/* End Of Header Section Style  */
+
+/* Seciont Overlay Styles   */
+
 .contain_img {
   width: 100%;
   height: 100% !important;
@@ -78,7 +83,7 @@ body {
   line-height: 1.3em;
   padding: 2em;
   font-family: "textFont";
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -98,3 +103,84 @@ body {
   left: 40%;
   top: 45%;
 }
+
+/* End Of Seciont Overlay Styles   */
+
+/* Image Offset Section Styles  */
+
+.contain_offset {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80vh !important;
+  padding-top: 3em;
+  margin: 25em 0em 5em 0em;
+  position: relative;
+  z-index: -2;
+  background: rgb(37, 37, 37);
+}
+
+#leftBox {
+  width: 40%;
+  margin: 0;
+  position: absolute;
+  left: 40%;
+  top: 35%;
+}
+
+.contain_offset h2 {
+  display: block;
+  text-align: center;
+  font-family: "headerFont";
+  line-height: 1em;
+  font-size: 4em;
+  padding-top: 2.2em;
+  padding-bottom: 0.4em;
+  position: absolute;
+  left: 9%;
+}
+
+.contain_offset p {
+  width: 50%;
+  position: relative;
+  right: 4%;
+  margin-left: 4em;
+  line-height: 1.5em;
+  padding: 3em 6em 2em 6em;
+  font-family: "textFont";
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.contain_offset img {
+  position: relative;
+  z-index: -2;
+  right: 0%;
+  left: -4%;
+  top: -10%;
+}
+
+.imgOne {
+  transform: rotate(354deg);
+}
+
+.imgTwo {
+  transform: rotate(15deg);
+  margin-top: 12em;
+}
+
+/* End Of Image Offset Section Styles  */
+
+/* Footer Section Styles */
+
+#mainFoot {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  font-family: "textFont";
+  font-size: 0.8em;
+  letter-spacing: 0.4em;
+}
+
+/* End Of Footer Section Styles */
