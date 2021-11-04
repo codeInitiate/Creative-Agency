@@ -1,0 +1,47 @@
+@font-face {
+  font-family: headerFont;
+  src: url(./fonts/aliens_and_cows/aliens\ and\ cows_trial.ttf);
+}
+
+@font-face {
+  font-family: textFont;
+  src: url(./fonts/neoteric/NEOTERIC╕\ -\ Regular\ DEMO\ VERSION.ttf);
+}
+@font-face {
+  font-family: boldFont;
+  src: url(./fonts/neoteric/NEOTERIC╕\ -\ Bold\ DEMO\ VERSION.ttf);
+}
+html * {
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+#main_Header {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.6em;
+  padding: 1em;
+  font-family: "boldFont";
+  width: 100%;
+}
+
+#main_Header h1 {
+  font-family: "headerFont";
+  color: rgb(251, 243, 126);
+  font-size: 3em;
+}
+
+.nav_Bar {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 1em;
+  width: 50%;
+}
