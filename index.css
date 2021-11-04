@@ -35,7 +35,7 @@ body {
 #main_Header h1 {
   font-family: "headerFont";
   color: rgb(251, 243, 126);
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .nav_Bar {
@@ -44,4 +44,57 @@ body {
   list-style: none;
   padding: 1em;
   width: 50%;
+  font-size: 1em;
+}
+
+.nav_Bar li:hover {
+  color: gold;
+  transition: all 1s ease-in;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.contain_img {
+  width: 100%;
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+  padding: 6em;
+  color: #000;
+}
+
+.contain_img h2 {
+  display: block;
+  text-align: center;
+  font-family: "headerFont";
+  font-size: 4em;
+  padding-top: 20px;
+  padding-bottom: 0.4em;
+}
+
+.contain_img p {
+  width: 70%;
+  line-height: 1.3em;
+  padding: 2em;
+  font-family: "textFont";
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.contain_img img {
+  position: relative;
+  z-index: -2;
+  right: 40%;
+  left: -25%;
+}
+
+#rightText {
+  width: 60%;
+  padding: 8em 0 8em 0;
+  margin: 0;
+  background: #fff;
+  position: absolute;
+  left: 40%;
+  top: 45%;
 }
