@@ -170,6 +170,19 @@ body {
   margin-top: 12em;
 }
 
+/*   This Is For Fade In On Scroll Js Animation  */
+
+/* .contain_img {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.contain_img.appear {
+  opacity: 1;
+} */
+
+/*   This Is For Fade In On Scroll Js Animation !!!!!!  */
+
 /* End Of Image Offset Section Styles  */
 
 /* Footer Section Styles */
