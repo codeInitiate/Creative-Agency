@@ -120,13 +120,13 @@ body {
   background: rgb(37, 37, 37);
 }
 
-#leftBox {
+/* #leftBox {
   width: 40%;
   margin: 0;
   position: absolute;
   left: 40%;
   top: 35%;
-}
+} */
 
 .contain_offset h2 {
   display: block;
@@ -170,19 +170,6 @@ body {
   margin-top: 12em;
 }
 
-/*   This Is For Fade In On Scroll Js Animation  */
-
-/* .contain_img {
-  opacity: 0;
-  transition: opacity 250ms ease-in;
-}
-
-.contain_img.appear {
-  opacity: 1;
-} */
-
-/*   This Is For Fade In On Scroll Js Animation !!!!!!  */
-
 /* End Of Image Offset Section Styles  */
 
 /* Footer Section Styles */
@@ -197,3 +184,22 @@ body {
 }
 
 /* End Of Footer Section Styles */
+
+/*   This Is For Fade In On Scroll Js Animation  */
+
+.contain_offset {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.contain_offset.appear {
+  opacity: 1;
+}
+
+
+
+/*   This Is The End For Fade In On Scroll Js Animation !!!!!!  */
+
+/* This Is The Appear On Scroll Animation for Section 2 */
+
+/* This Is The End Of Appear On Scroll Animation for Section 2 */
